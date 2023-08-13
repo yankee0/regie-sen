@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from "./components/Footer/Footer";
 import './App.css'
+import ContactForm from './components/Contact/ContactForm';
 
 export default function App() {
 
@@ -26,6 +27,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <ContactForm />
       <Footer />
     </div>
   );

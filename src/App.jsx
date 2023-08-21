@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from "./components/Footer/Footer";
 import './App.css'
 import ContactForm from './components/Contact/ContactForm';
+import Navbar from './components/Navbar/Navbar';
 
 export default function App() {
 
   return (
     <div className="container-fluid">
+      <Navbar />
       <div
         className="hero min-h-screen"
         style={{

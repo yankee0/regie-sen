@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-3">
       <div className="grid gap-3 grid-flow-row md:grid-flow-col md:grid-cols-2">
         <div>
           <h2 className="card-title text-5xl font-bold text-secondary mb-3">
@@ -67,10 +67,10 @@ export default function ContactForm() {
         <div>
           <div className="card w-full bg-gradient-to-r from-secondary to-primary text-primary-content">
             <div className="card-body">
-              <h2 className="card-title text-5xl font-bold text-base-100">
+              <h2 className="card-title text-5xl font-bold text-base-100 mb-3">
                 Laissez nous un message
               </h2>
-              <p className="text-white text-opacity-80">
+              <p className="text-white text-opacity-80 mb-3">
                 Nous serions enchantés d'entrer en contact avec vous. Notre
                 équipe répondra à votre message dans les plus brefs délais.
               </p>
@@ -96,7 +96,7 @@ export default function ContactForm() {
                     type="checkbox"
                     className="toggle toggle-primary toget-xs"
                   />
-                  <span className="label-text text-white text-opacity-80">
+                  <span className="label-text text-white text-opacity-80 mb-3">
                     Recevoir de nos nouvelles et de nos conseils en s'abonnant à
                     notre newsletter.
                   </span>

@@ -2,14 +2,14 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <div className="container mx-auto p-3">
-      <div className="grid gap-3 grid-flow-row md:grid-flow-col md:grid-cols-2">
+    <div id="contact" className="container pt-20 mx-auto p-3">
+      <div className="grid gap-10 grid-flow-row md:grid-flow-col md:grid-cols-2">
         <div>
-          <h2 className="card-title text-5xl font-bold text-secondary mb-3">
+          <h2 className="card-title text-5xl font-bold text-secondary mb-5">
             Nous contacter
           </h2>
-          <div className="grid row gap-3">
-            <div className="collapse collapse-plus bg-base-200">
+          <div className="grid row gap-4">
+            <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
                 Demander un devis
@@ -22,7 +22,7 @@ export default function ContactForm() {
                 </p>
               </div>
             </div>
-            <div className="collapse collapse-plus bg-base-200">
+            <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
                 Nos Services Publicitaires
@@ -35,7 +35,7 @@ export default function ContactForm() {
                 </p>
               </div>
             </div>
-            <div className="collapse collapse-plus bg-base-200">
+            <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
                 Monitoring de Publicité
@@ -48,7 +48,7 @@ export default function ContactForm() {
                 </p>
               </div>
             </div>
-            <div className="collapse collapse-plus bg-base-200">
+            <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
                 Votre avis

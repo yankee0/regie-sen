@@ -46,7 +46,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#conctact" className="btn btn-primary text-white">
+        <a href="#contact" className="btn btn-primary text-white">
           Contactez nous
         </a>
       </div>

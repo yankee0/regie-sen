@@ -38,13 +38,15 @@ export default function ContactForm() {
             <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
-                Monitoring de Publicité
+                Pige et veille concurrentielle
               </div>
               <div className="collapse-content">
                 <p className=" text-secondary text-opacity-80">
-                  Apprenez-en plus sur notre service de suivi de publicités
-                  télévisées et radiophoniques. Nous analysons les performances
-                  de vos campagnes pour optimiser vos résultats.
+                  Optimisez votre succès marketing grâce à notre expertise en
+                  veille concurrentielle. Notre équipe vous guidera pour rester
+                  en tête de la course, en surveillant vos concurrents et en
+                  adaptant votre stratégie en conséquence. Contactez-nous
+                  aujourd'hui pour un avantage concurrentiel inégalé.
                 </p>
               </div>
             </div>

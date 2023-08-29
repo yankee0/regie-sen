@@ -25,7 +25,7 @@ export default function ContactForm() {
             <div className="collapse collapse-plus bg-slate-100">
               <input type="radio" name="contactAccordion" />
               <div className="collapse-title text-primary text-xl font-medium">
-                Nos Services Publicitaires
+                Nos services publicitaires
               </div>
               <div className="collapse-content">
                 <p className=" text-secondary text-opacity-80">

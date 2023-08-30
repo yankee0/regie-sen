@@ -217,11 +217,12 @@ export default function Home() {
             </figure>
             <div className="card-body">
               <h4 className="card-title text-secondary">
-                Monitoring de Publicité
+                Pige et Veille Concurrentielle
               </h4>
               <p className="text-sm text-secondary">
-                Suivez et analysez vos publicités télévisées et radiophoniques
-                pour maximiser l'efficacité de vos campagnes.
+                L'analyse minutieuse de la concurrence est essentielle pour
+                prospérer sur le marché. Avec Pige et Veille Concurrentielle,
+                vous restez toujours en avance.
               </p>
             </div>
           </div>
@@ -288,28 +289,60 @@ export default function Home() {
         </h2>
         <div className="carousel carousel-center rounded-box md:w-full md:justify-around">
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={agPartners} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={agPartners}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={gfm} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={gfm}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={havas} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={havas}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={sgbs} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={sgbs}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={casa} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={casa}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={tecno} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={tecno}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={crax} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={crax}
+              alt="Pizza"
+            />
           </div>
           <div className="carousel-item">
-            <img className="max-h-[70px] aspect-video object-contain" src={sogepal} alt="Pizza" />
+            <img
+              className="max-h-[70px] aspect-video object-contain"
+              src={sogepal}
+              alt="Pizza"
+            />
           </div>
         </div>
       </div>
